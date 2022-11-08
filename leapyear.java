@@ -41,7 +41,7 @@ import java.util.Scanner;
 public static void main(Sring[]args){
   Scanner sc=new Scanner(System.in);
   int Y=sc.nextInt();
-    if(Y%4 == 0 && Y%100! Y%400 ==0 ){
+    if(Y%4 == 0 && Y%100!=0 || Y%400 ==0 ){
       System.out.println("1");
     }
     else{
